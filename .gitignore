@@ -1,0 +1,79 @@
+# ================================
+# C / C++ Compiled Files
+# ================================
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Debug files
+*.dSYM/
+
+# ================================
+# Build Folders
+# ================================
+
+build/
+bin/
+obj/
+debug/
+release/
+
+# ================================
+# CMake
+# ================================
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+# ================================
+# VS Code
+# ================================
+
+.vscode/
+
+# Keep VS Code settings if you want:
+# !.vscode/settings.json
+
+# ================================
+# Temporary Files
+# ================================
+
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+
+# Backup files
+*~
+*.bak
+
+# ================================
+# OS Generated Files
+# ================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
