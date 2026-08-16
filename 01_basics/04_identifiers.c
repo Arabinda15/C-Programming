@@ -9,8 +9,8 @@ void Display(){
     char grade = 'A';
 
     printf("Age is %d\n", age);
-    printf("Age is %.1f\n", height);
-    printf("Age is %c\n", grade);
+    printf("Height is %.1f\n", height);
+    printf("Grade is %c\n", grade);
 
 
 
