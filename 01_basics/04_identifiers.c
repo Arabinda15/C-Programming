@@ -12,8 +12,6 @@ void Display(){
     printf("Height is %.1f\n", height);
     printf("Grade is %c\n", grade);
 
-
-
 }
  int main(){
  Display();
