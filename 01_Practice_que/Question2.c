@@ -15,4 +15,5 @@ int main(){
     printf("difference of numbers : %d\n", a-b);
     printf("product of numbers : %d\n", a*b);
 
+    return 0;
 }
