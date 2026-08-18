@@ -18,7 +18,7 @@ int main(){
     printf("Grade :");
     scanf(" %c", &Grade);
 
-    printf("You are %d years old having a height of %.1f feet and get a %c grade", Age,Height,Grade);
+    printf("You are %d years old, %.1f feet Tall, and got a %c grade", Age,Height,Grade);
     return 0;
 
 }
