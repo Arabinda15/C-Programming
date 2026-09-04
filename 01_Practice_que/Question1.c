@@ -1,14 +1,18 @@
 /*Write a C program to declare
- variables for your age, height, and grade,
+ variables for your name, age, height, and grade,
  assign values to them, and display their values*/
 
 #include<stdio.h>
 
 int main(){
+    char Name[50];  
     int Age;
     float Height;
     char Grade;
-    
+
+    printf("Name :");
+    scanf("%s", &Name);
+
     printf("Age :");
     scanf("%d", &Age);
 
@@ -18,7 +22,7 @@ int main(){
     printf("Grade :");
     scanf(" %c", &Grade);
 
-    printf("You are %d years old, %.1f feet Tall, and got a %c grade", Age,Height,Grade);
+    printf("Your name is %s,You are %d years old, %.1f feet Tall, and got a %c grade",Name,Age,Height,Grade);
     return 0;
 
 }
