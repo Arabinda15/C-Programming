@@ -5,7 +5,6 @@ int main(){
     printf("Enter your full name : \n");
 
     fgets(name,sizeof(name),stdin);
-    // printf("Welcome %s", name);
     printf("Hello %s", name);
     return 0;
 }
